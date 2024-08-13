@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* NAV BAR */
+.my-navbar {
+  background-color: rgba(255, 192, 203, 0.5);
+
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.my-navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.my-navbar a:hover {
+  color: violet;
+}
+
+/*  INTRO */
+.intro {
+  height: 800px;
+  background-image: url(../Images/IntroImage.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 300px;
+}
+
+.intro-title {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 80px;
+  font-size: 25px;
+}
+
+/* ABOUT ME */
+#about-me {
+  text-align: center;
+  margin: 100px 200px;
+}
+
+#about-me img {
+  width: 15%;
+  border-radius: 50%;
+}
+
+/* PROJECTS */
+#My-Projects {
+  text-align: center;
+  margin: 100px 0px;
+
+  color: white;
+  background-color: rgba(255, 192, 203, 0.5);
+  padding: 40px;
+  width: 100%;
+}
+
+.dragon-game {
+  text-align: center;
+  margin: 100px 200px;
+}
+
+.dragon-game img {
+  width: 50%;
+  height: 50%;
+  padding-bottom: 20px;
+}
+
+.dice-game {
+  text-align: center;
+  margin: 100px 200px;
+}
+
+.dice-game img {
+  width: 50%;
+  height: 50%;
+  padding-bottom: 20px;
+}
+
+/* CONTACT */
+#contact-me {
+  background-color: rgba(255, 192, 203, 0.5);
+  color: white;
+  text-align: center;
+  margin: 100px 0px;
+  padding: 40px;
+  width: 100%;
+}
+
+.contact-info {
+  margin-top: 35px;
+  padding: 10px;
+}
+
+#contact-page {
+  text-align: center;
+  margin: 100px 0px;
+
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  width: 100%;
+}
+
+#contact-page a {
+  text-decoration: none;
+  color: white;
+  padding: 40px;
+}
+
+/* BUTTONS */
+button {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+}
+button a {
+  text-decoration: none;
+  color: white;
+  padding: 40px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: rgba(255, 192, 203, 0.5);
+  font-size: 18px;
+  padding: 10px;
+}
